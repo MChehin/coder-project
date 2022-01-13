@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../assets/img/icon.jpg"> 
+        <link rel="stylesheet" href="../css-bt/bootstrap.min.css">  
+        <link rel="stylesheet" href="../css/estilos.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+        <title>Contacto</title>
+    </head>
+<!--------------------HEADER-------------------->
+<body class="body__contact">
+    <header class= "header">
+        <nav class="navbar navbar-expand-lg" style="background-color: #a6a6a6;">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                            <img src="../assets/img/logo.jpg" alt="logo" width="115" height="75">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                            <a class="nav-link" href="../index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                            <a class="nav-link" href="../html/aboutus.html">Quiénes
+                                                    Somos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                            <a class="nav-link" href="../html/tienda.html">Tienda</a>
+                                    </li>
+                                    <li class="nav-item">
+                                            <a class="nav-link active" aria-current="page"
+                                                    href="taller.html">Taller</a>
+                                    </li>
+                                    <li class="nav-item">
+                                            <a class="nav-link" href="../html/contacto.html">Contacto</a>
+                                    </li>
+                            </ul>
+                            
+                    </div>
+            </div>
+    </nav>
+        
+</header> 
+<!--------------------CONTENIDO-------------------->
+        <section class="contacto__1">
+            <section class="contact__form">
+                    <form action="">
+                        <fieldset>
+                        <legend><h2>CONTACTO</h2></legend>
+            
+                            <label for="nombre">Nombre:</label>  
+                                <input type="text" name="nombre" id="nombre" placeholder="Ingresá tu nombre" required>   
+                            <label for="apellido">Apellido:</label>  
+                                <input type="text" name="apellido" id="apellido" placeholder="Ingresá tu apellido" required>  
+                            <label for="email">Email:</label>  
+                                <input type="email" name="email" id="email" placeholder="Ingresá tu correo" required>
+                            <label for="phone">Celular:</label>  
+                                <input type="email" name="phone" id="phone" placeholder="Número de celular">
+                                <br>
+                            <label for="consulta">Consulta:</label>  
+                                <textarea name=consulta id="consulta" cols="30" rows="8"> </textarea>
+                                <input type="button" value="Enviar" id="button">
+                        </fieldset>
+            
+                    </form>
+            
+            </section>            
+            <div class="contacto__img">
+                <img src="../assets/img/taller0.jpg" alt= "imagen herramientas">                
+            </div>
+        </section>       
+        
+<!------------------------FOOTER--------------------->
+<footer class="footer">
+    <div class="footer__bloque">               
+            <div>
+                <img class="footer__logo" src="../assets/img/logo.jpg" alt="logo">  
+            </div>    
+            <div>
+                    <ul class= "footer__menu">
+                        <li><a href="../index.html">Home </a></li>
+                        <li><a href="../html/aboutus.html">Quiénes somos</a></li>
+                        <li><a href="../html/tienda.html"> Tienda</a></li>
+                        <li><a href="../html/taller.html">Taller </a></li>
+                        <li><a href="contacto.html"> Contacto</a></li>
+                    </ul>
+            </div>
+            <div>
+                    <ul class= "footersocial">
+                        <li><a href="">Instagram </a></li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">YouTube</a></li>
+                    </ul>
+            </div>
+    </div>
+    <div class="footer__credito"> ©HALLWAY 2021 
+    </div>
+</footer>        
+
+    </body>
+    <script src="../js-bt/bootstrap.min.js"></script>
+</html>
