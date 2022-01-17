@@ -151,7 +151,7 @@ transition: background-color .5s;
 }
 .nosotros__img img {
   width: 20rem;
-  margin-top: 35px;
+  margin-top: 5px;
   margin-bottom: 15px;
   border-radius: 20%;
 }
@@ -236,19 +236,31 @@ transition: background-color .5s;
   padding: 10px 10px 12px 25px;
   margin: 10px 10px 12px 25px;
 }
+.section__taller h3 {
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  padding: 10px 10px 12px 25px;
+  margin: 10px 10px 12px 25px;
+}
+
+.section__taller h4 {
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  margin-left: 25px;
+}
+.section__taller li {
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  font-size: 0.9rem;
+  margin: 5px 5px 5px 5px;
+  
+}
 .row__taller p {
   font-family: "Oswald", sans-serif;
   color: #fff;
   font-size: 1rem;
   line-height: 1.2rem;
   text-align: justify;
-  
-}
-
-
-.taller__servicios li {
-  color: #fff;
-  font-family: "Oswald", sans-serif;
 }
 .section__taller2 h3 {
   font-family: "Oswald", sans-serif;
@@ -275,6 +287,10 @@ transition: background-color .5s;
 .taller__video {
   margin: 20px 35px 40px 55px;
 }
+.card {
+  margin: 40px 5px 5px 5px;
+}
+
 /******* CONTENIDO CONTACTO*******/
 .body__contact {
   background-color: #000;
