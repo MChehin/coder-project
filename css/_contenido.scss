@@ -1,0 +1,18 @@
+/* CONTENIDO VARIABLES  */
+
+$color-principal: #fff;
+$color-fondo: #000;
+$color-secundario: #6b3923;
+$color-terciario: #a6a6a6; 
+$color-cuarto: #aaa245;
+$color-quinto: #bc8a3c;
+$font: "Oswald", sans-serif; 
+
+/* Animación index  */
+@keyframes taller {
+    0% {background-color: $color-fondo;}
+    20% {background-color: $color-secundario;}
+    40% {background-color: $color-cuarto;}
+    60% {background-color: $color-quinto;}
+    80% {background-color: $color-secundario;}
+}
