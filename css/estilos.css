@@ -383,9 +383,14 @@ transition: background-color .5s;
   padding: 1rem;
   font-family: "Oswald", sans-serif;
 }
-.footer__menu a {
+.footer__menu h5 {
   color: #000;
   text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  align-content: center;
+  justify-content: center;
+  padding-top: 2rem;
+
 }
 .footersocial {
   list-style-type: none;
@@ -400,6 +405,7 @@ transition: background-color .5s;
   color: #000;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
+  padding: 1.5rem;
 }
 
 .footer__logo {
@@ -433,7 +439,7 @@ transition: background-color .5s;
   }
   .footer__logo {
     width: 120px;
-    padding: 1rem;
+    padding-right: 2rem;
     border-radius: 0.2rem;
   }
   .footersocial a {
@@ -502,7 +508,7 @@ transition: background-color .5s;
     color: transparent;
   }
   #button {
-    width: 14git%;
+    width: 14%;
     border-radius: 5px;
     margin: 5px 0px 5px 0px;
   }
