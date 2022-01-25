@@ -659,31 +659,6 @@ transition: background-color .5s;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
-  /**** TIENDA MOBILE*****/
-  .tienda__venta {
-    display: grid;
-    grid-template-columns: 14rem;
-    grid-template-rows: auto;
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-    justify-content: center;
-    align-items: center;
-  }
-  .img__venta h4 {
-    font-family: "Oswald", sans-serif;
-    color: #a6a6a6;
-    padding: 5px 0px 5px 5px;
-    margin: 5px 5px 5px 5px;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-  }
-  .btn {
-    margin: 2px 0px 10px 140px;
-    display: block;
-    font-size: 0.6rem;
-    width: 4.5rem;
-  }
-
   /**** ABOUT US MOBILE*****/
   .article__somos {
     display: flex;
@@ -781,4 +756,30 @@ transition: background-color .5s;
     height: auto;
     margin: 25px 25px 25px 50px;
   }
+}
+@media only screen and (max-width: 510px) {
+/**** TIENDA MOBILE*****/
+.tienda__venta {
+  display: grid;
+  grid-template-columns: 14rem;
+  grid-template-rows: auto;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.img__venta h4 {
+  font-family: "Oswald", sans-serif;
+  color: #a6a6a6;
+  padding: 5px 0px 5px 5px;
+  margin: 5px 5px 5px 5px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.btn {
+  margin: 2px 0px 10px 140px;
+  display: block;
+  font-size: 0.6rem;
+  width: 4.5rem;
+}
 }
