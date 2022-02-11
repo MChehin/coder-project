@@ -1,4 +1,4 @@
-@import "desafiosass2";
+@import "footer";
 
 
 * {
@@ -116,7 +116,7 @@
   width: 100%;
   background-color: #000;
 
-  img {
+  .imagen2 {
     width: 100%;
     height: auto;
   }
@@ -194,8 +194,8 @@
 }
 
 .nosotros__img img {
-  width: 20rem;
-  margin-top: 5px;
+  width: 16rem;
+  margin-top: 2px;
   margin-bottom: 15px;
   border-radius: 20%;
 }
@@ -418,14 +418,15 @@
   background-color: #000;
 } 
 
+
 .btn-primary {
   font-family: "Oswald", sans-serif;
   color: #a6a6a6;
-  background-color: #6b3923;
-  border-radius: 0.6rem;
-  border-color: #fff;
+  background-color: #000;
+  border-color: #a6a6a6;
   align-items: flex-end;
   margin: 2px 2px 2px 2px;
+  padding: 2px 2px 2px 2px;
 
 } 
 
@@ -433,83 +434,6 @@
   width: 300px;
   height: 400px;
   margin: 70px 35px 25px 20px;
-}
-
-/******* FOOTER*******/
-
-.footer {
-  background-color: #a6a6a6;
-  padding: 1rem;
-}
-
-.footer__bloque {
-  display: flex;
-  justify-content: space-around;
-  background-color: #a6a6a6;
-}
-
-.footer__menu {
-  list-style-type: none;
-  text-align: center;
-  padding: 1rem;
-  font-family: "Oswald", sans-serif;
-
-  h5 {
-    color: #000;
-    text-decoration: none;
-    font-family: "Oswald", sans-serif;
-    align-content: center;
-    justify-content: center;
-    padding-top: 2rem;
-  }
-}
-
-.footersocial {
-  list-style-type: none;
-  text-align: center;
-  padding: 1rem;
-  color: #000;
-  text-decoration: none;
-  font-family: "Oswald", sans-serif;
-  margin-top: 1rem;
-
-  a {
-    color: #000;
-    text-decoration: none;
-    font-family: "Oswald", sans-serif;
-    padding: 1.5rem;
-  }
-}
-
-.footersocial1 {
-  list-style-type: none;
-  text-align: center;
-  padding: 1rem;
-  text-decoration: none;
-  font-family: "Oswald", sans-serif;
-  margin-top: 1rem;
-
-  a {
-    text-decoration: none;
-    font-family: "Oswald", sans-serif;
-    padding: 1.5rem;
-  }
-
-}
-.footer__logo {
-  width: 150px;
-  margin: 1rem;
-  border-radius: 0.4rem;
-  padding-top: 1.1rem;
-}
-
-.footer__credito {
-  text-align: center;
-  color: #a6a6a6;
-  padding: 1rem;
-  font-size: 0.8rem;
-  background-color: #6b3923;
-  font-family: "Oswald", sans-serif;
 }
 
 /******* MEDIAS QUERIES*******/
@@ -558,8 +482,6 @@
 
   .imagen2 {
     width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
   }
 
   /**** CONTACTO TABLET*****/
@@ -632,7 +554,7 @@
   }
 
   .img__venta {
-    h4 {
+    h5 {
       font-family: "Oswald", sans-serif;
       color: #a6a6a6;
       padding: 5px 0px 5px 5px;
@@ -681,14 +603,13 @@
   }
 
   .nosotros__img img {
-    width: 15rem;
-    padding: 5px 15px 12px 15px;
+    width: 18rem;
+    padding: 5px 5px 15px 15px;
     margin: 5px 5px 5px 5px;
-    border-radius: 10%;
+    border-radius: 5%;
   }
 
-  /**** TALLER MOBILE*****/
-
+  /**** TALLER TABLET*****/
   .article__taller {
     display: flex;
     flex-direction: column;
@@ -699,15 +620,19 @@
       color: #fff;
       font-size: 0.8rem;
       line-height: 1rem;
-      text-align: leftjustify;
-      width: 85%;
+      text-align: justify;
+      width: 80%;
       padding: 5px 5px 5px 5px;
       margin: 5px 35px 25px 35px;
     }
   }
 
   .taller__img img {
-    display: none;
+    width: 13rem;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 45px;
+    width: 70%;
+    height: auto;
   }
 
   .taller__video {
@@ -718,7 +643,7 @@
 }
 
 /**** Mobile Index*****/
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 500px) {
   .footer {
     background-color: #a6a6a6;
     padding: 0.5rem;
@@ -747,7 +672,7 @@
     color: #000;
     text-decoration: none;
     font-family: "Oswald", sans-serif;
-    margin: 0.1rem 0.8rem 0.1rem 0.1rem;
+    margin: 0.1rem 3rem 0.1rem 0.1rem;
     padding: 0.1rem 0.8rem 0.1rem 0.1rem;
 
     li {
@@ -778,7 +703,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
-
+  
   /**** ABOUT US MOBILE*****/
 
   .article__somos {
@@ -831,10 +756,6 @@
     margin: 5px 5px 5px 45px;
     width: 70%;
     height: auto;
-  }
-
-  .taller__video {
-    display: none;
   }
 
   /**** CONTACTO MOBILE*****/
